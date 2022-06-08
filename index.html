@@ -1,35 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap-Portfolio Site</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap-Portfolio Site</title>
+ 
+  <link rel="stylesheet" href="./css/styles.css">
+ 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"/>
+ 
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="./images/geometry_1.png"></a>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="nav justify-content-center">
-              <li class="nav-item ">
-                <a class="nav-link active" aria-current="page" href="#">Hello</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light py-3 fixed-top justify-content-center">
+    <div class="containerv">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse " id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Hello</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section id="Section_one" class="p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+    <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-between">
+        <div>
+          <h1>Muhammad Ashraf</h1>
+          <p class="lead my-4">
+            Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my
+            works. If you like what you see and have a project you need coded, don’t hesitate and contact me.
+          </p>
+          <button class="btn btn-dark btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">
+
+            Start Collaboration
+          </button>
+        </div>
+        <img class="img-fluid w-50 d-none d-sm-block" src="./images/geometry_desktop.svg" alt="" />
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col col-md-4 align-items-left">
+          <div class="col text-rotate-90 text-lg-start">
+            <h1>Projects</h1>
           </div>
         </div>
-      </nav>   
+        <div class="col col-md-8">
+          <div class="card">
+            <img src="./images/proj1.png" class="card-img-top" alt="...">
+            <div class="container text-white bg-dark">
+              <div class="card-body">
+                <h5 class="card-title">Project Name Goes Here</h5>
+                <div class="row align-items-left justify-content-between">
+                  <div class="col"><a href="#" class="btn btn-primary btn-sm">HTML/CSS</a></div>
+                  <div class="col"><a href="#" class="btn btn-primary btn-sm">Ruby On Rails</a></div>
+                  <div class="col"><a href="#" class="btn btn-primary btn-sm">Javascript</a></div>
+                </div>
+                <div class="row">&nbsp;</div>
+                <div class="row align-items-left">
+                  <div class="col">
+                    <button type="button" class="btn-light btn-md">See this project <img src="./Images/arrow.png" alt="Go to project one button"></button>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
 </body>
+
 </html>
