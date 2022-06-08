@@ -9,6 +9,7 @@
 - **HTML & CSS best practices:** Correct use of tags, elements, properties and syntax.
 - **GitHub flow:**  Correct use of Branches for deployment and features development.
 - **Linters Check:** Local and Pull Request check for errors, bugs and stylistic errors in code.
+- **Bootstrap:**  CSS Framework to streamline Styling and modal in your project.
 
 ## Live Demo 
 
@@ -23,10 +24,9 @@
 - LinkedIn: [Raul Ospina](http://linkedin.com/in/raul-ospina-83232614)
 
 
-## Collaborators
+👤 **Muhammad Ashraf**
 
-- [Name](URL)
-- [Name](URL)
+- GitHub: [@for-ashraf](https://github.com/for-ashraf)
 
 
 ## Project Milestones
