@@ -1,0 +1,8 @@
+.text-underline-hover:hover {
+  text-decoration: underline;
+}
+
+.text-rotate-90 {
+  transform: rotate(-90deg);
+  text-align: center;
+}
